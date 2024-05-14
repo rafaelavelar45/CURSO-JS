@@ -1,0 +1,30 @@
+main{
+    margin: auto;
+    background-color: white;
+    width: 400px;
+    padding-left: 15px;
+    padding-top: 15px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.288);
+    border-radius: 5px;
+    font-family: monospace, sans-serif;
+    
+}
+
+header{
+    text-align: center;
+    font-family: monospace, sans-serif;
+    font-size: 1.5em;
+}
+
+body{
+    background-color: rgba(73, 73, 243, 0.863);
+}
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+
+   

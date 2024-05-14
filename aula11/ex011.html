@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nacionalidade</title>
+    <style>
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      p {
+        color: black;
+      }
+
+      #res {
+        margin-top: 25px;
+        margin-left: 5px;
+        border: 1px solid black;
+        width: 200px;
+        height: 100px;
+        background-color: blanchedalmond;
+      }
+
+      #button {
+        background-color: green;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Teste de Nacionalidade</h1>
+    <p><strong>Digite sua Nacionalidade:</strong></p>
+    <input type="text" name="txt" id="txt" />
+    <input type="button" value="Verificar" onclick="verificar()" id="button" />
+    <div id="res"></div>
+
+    <script>
+      function verificar() {
+        var text = document.querySelector("input#txt");
+        var res = document.getElementById("res");
+        var resp = (text.value);
+        res.innerHTML = `Seu Pais é ${resp}!!`;
+        if (resp != "Brasil") {
+          res.innerHTML += `<p>Você é <strong>Estrangeiro!!</strong></p>`;
+        } else {
+          res.innerHTML += `<p> Você É <strong>Brasileiro!!</strong></p>`;
+        }
+      }
+    </script>
+  </body>
+</html>

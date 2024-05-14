@@ -1,0 +1,38 @@
+body {
+  background-color: rgba(95, 95, 245, 0.767);
+}
+
+header {
+  text-align: center;
+  font-family: monospace, sans-serif;
+  font-size: 1.7em;
+  color: white;
+  
+}
+
+main {
+  font: normal 1.9em monospace;
+  background-color: white;
+  height: 400px;
+  width: 450px;
+  margin: auto;
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.267);
+  padding-left: 20px;
+  
+}
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: white;
+   
+}
+
+#select{
+ text-align: center;
+}
